@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>contacto</title>
+  <link rel="stylesheet" href="/css/cafeteria.css">
+</head>
+<body>
+  <h1>Contacto</h1>
+
+<form id="miFormulario">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" required>
+  
+  <label for="nombre">Correo:</label>
+  <input type="text" id="correo" required>
+
+  <label for="nombre">Asunto</label>
+     <textarea id="comentario" name="comentario" rows="4" cols="50">
+    Escribe aquí tu mensaje...
+    </textarea>
+  <button type="submit">Enviar</button>
+   <a th:href="@{/menu}" class="boton secundario">regresar</a>
+</form>
+
+<script>
+  document.getElementById('miFormulario').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que la página se recargue inmediatamente
+    
+    alert('¡Mensaje enviado con éxito!');
+    
+   
+    this.reset();
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,451 @@
+/* Estilos de la cafetería: paleta Monestra (Brunswick Green, Emerald, Polar) */
+:root {
+  --brunswick: #0C4137;
+  --esmeralda: #06D6A0;
+  --polar: #E6FBF6;
+  --texto: #12302a;
+}
+
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--polar);
+  color: var(--texto);
+}
+
+h1 {
+  color: var(--brunswick);
+  border-bottom: 4px solid var(--esmeralda);
+  padding-bottom: 8px;
+}
+
+a {
+  color: var(--brunswick);
+  font-weight: bold;
+}
+
+/* Los enlaces de filtro (están dentro de un párrafo) */
+p a {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--brunswick), #0a6b55);
+  color: var(--polar);
+  padding: 4px 12px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+p a:hover {
+  background: var(--esmeralda);
+  color: var(--brunswick);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada plato del menú */
+li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-left: 6px solid var(--esmeralda);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.12);
+}
+
+/* Estilos de la cafetería: paleta Monestra (Brunswick Green, Emerald, Polar) */
+:root {
+  --brunswick: #0C4137;
+  --esmeralda: #06D6A0;
+  --polar: #E6FBF6;
+  --texto: #12302a;
+  --peligro: #b3261e;
+  --borde: #cfeee6;
+}
+
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--polar);
+  color: var(--texto);
+}
+
+h1 {
+  color: var(--brunswick);
+  border-bottom: 4px solid var(--esmeralda);
+  padding-bottom: 8px;
+}
+
+a {
+  color: var(--brunswick);
+  font-weight: bold;
+}
+
+/* Los enlaces de filtro (están dentro de un párrafo) */
+p a {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--brunswick), #0a6b55);
+  color: var(--polar);
+  padding: 4px 12px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+p a:hover {
+  background: var(--esmeralda);
+  color: var(--brunswick);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada plato del menú */
+li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-left: 6px solid var(--esmeralda);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.12);
+}
+
+/* ===== Administración (tabla, botones y formulario) ===== */
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.boton {
+  display: inline-block;
+  background: var(--brunswick);
+  color: var(--polar);
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background: var(--esmeralda);
+  color: var(--brunswick);
+}
+
+.boton.secundario {
+  background: var(--borde);
+  color: var(--texto);
+}
+
+.boton.secundario:hover {
+  background: #b5e6da;
+  color: var(--texto);
+}
+
+.boton.peligro {
+  background: var(--peligro);
+  color: white;
+}
+
+.boton.peligro:hover {
+  background: #8f1d17;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.12);
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--borde);
+}
+
+th {
+  background: var(--brunswick);
+  color: var(--polar);
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.vacio {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.formulario {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.12);
+}
+
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin: 12px 0 4px;
+}
+
+.formulario input,
+.formulario select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #a9d8cc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.formulario input:focus,
+.formulario select:focus {
+  outline: 2px solid var(--esmeralda);
+  border-color: var(--brunswick);
+}
+
+.formulario .acciones {
+  margin-top: 16px;
+}
+
+/* Estilos de la cafetería: paleta Monestra (Brunswick Green, Emerald, Polar) */
+:root {
+  --brunswick: #0C4137;
+  --esmeralda: #06D6A0;
+  --polar: #E6FBF6;
+  --texto: #12302a;
+  --peligro: #b3261e;
+  --borde: #cfeee6;
+}
+
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--polar);
+  color: var(--texto);
+}
+
+h1 {
+  color: var(--brunswick);
+  border-bottom: 4px solid var(--esmeralda);
+  padding-bottom: 8px;
+}
+
+a {
+  color: var(--brunswick);
+  font-weight: bold;
+}
+
+/* Los enlaces de filtro (están dentro de un párrafo) */
+p a {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--brunswick), #0a6b55);
+  color: var(--polar);
+  padding: 4px 12px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+p a:hover {
+  background: var(--esmeralda);
+  color: var(--brunswick);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada plato del menú */
+li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-left: 6px solid var(--esmeralda);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.12);
+}
+
+/* ===== Administración (tabla, botones y formulario) ===== */
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.boton {
+  display: inline-block;
+  background: var(--brunswick);
+  color: var(--polar);
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background: var(--esmeralda);
+  color: var(--brunswick);
+}
+
+.boton.secundario {
+  background: var(--borde);
+  color: var(--texto);
+}
+
+.boton.secundario:hover {
+  background: #b5e6da;
+  color: var(--texto);
+}
+
+.boton.peligro {
+  background: var(--peligro);
+  color: white;
+}
+
+.boton.peligro:hover {
+  background: #8f1d17;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.12);
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--borde);
+}
+
+th {
+  background: var(--brunswick);
+  color: var(--polar);
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.vacio {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.formulario {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.12);
+}
+
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin: 12px 0 4px;
+}
+
+.formulario input,
+.formulario select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #a9d8cc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.formulario input:focus,
+.formulario select:focus {
+  outline: 2px solid var(--esmeralda);
+  border-color: var(--brunswick);
+}
+
+.formulario .acciones {
+  margin-top: 16px;
+}
+
+/* ===== Contacto (labels, campos de texto y textarea) ===== */
+label {
+  display: block;
+  font-weight: bold;
+  color: var(--brunswick);
+  margin: 16px 0 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  background: white;
+  color: var(--texto);
+  border: 1px solid #a9d8cc;
+  border-radius: 8px;
+  font: inherit;
+  box-shadow: 0 2px 6px rgba(12, 65, 55, 0.08);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: 2px solid var(--esmeralda);
+  border-color: var(--brunswick);
+}
+
+::placeholder {
+  color: #6f8f87;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  margin-top: 20px;
+  background: linear-gradient(135deg, var(--brunswick), #0a6b55);
+  color: var(--polar);
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: var(--esmeralda);
+  color: var(--brunswick);
+}
